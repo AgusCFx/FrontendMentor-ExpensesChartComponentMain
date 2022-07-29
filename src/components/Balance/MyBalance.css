@@ -1,0 +1,13 @@
+.myBalanceContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: hsl(33, 100%, 98%);
+    background-color: hsl(10, 79%, 65%);
+}
+.myBalanceContainer__info,
+.myBalanceContainer__logo{
+    margin: 20px;
+}

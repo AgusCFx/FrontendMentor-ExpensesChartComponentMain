@@ -1,0 +1,66 @@
+.spendingContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: hsl(33, 100%, 98%);
+}
+.spendingContainer__title{
+    margin: 20px;
+}
+
+/* StatsWeek */
+.statsWeekContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    margin-top: 5px;
+}
+.statsWeekContainer__dayStats{
+    position: relative;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: calc((100%/7) - 2px);
+}
+.dayStatsAmount{
+    position: absolute;
+    top: -35px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(27, 66%, 92%);
+}
+.dayStatsBar{
+    width: 70%;
+    border-radius: 5px;
+    background-color:hsl(10, 79%, 65%);
+}
+.dayStatsBar:hover,
+.dayStatsBar--active:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.dayStatsBar--active{
+    background-color:hsl(186, 34%, 60%);
+}
+/* StatsMonth */
+.statsMonthContainer{
+    padding: 20px;
+}
+.statsMonth{
+    display: flex;
+    justify-content: space-between;
+}
+.statsMonth__totalTitle,
+.statsMonth__lastMonthText{
+    padding: 3px 0;
+}
+.statsMonth__lastMonthNum{
+    text-align: right;
+}

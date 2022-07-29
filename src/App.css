@@ -1,0 +1,19 @@
+.firstText{
+    font-weight: 800;
+}
+.secondText{
+    font-weight: 400;
+}
+.sizeText1{
+    font-size: 2rem;
+}
+.sizeText2{
+    font-size: 0.8rem;
+}
+
+.myBalanceContainer,
+.spendingContainer{
+    margin: 10px;
+    min-width: 375px;
+    max-width: 500px;
+}

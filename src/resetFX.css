@@ -1,0 +1,63 @@
+/* Basico */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+body{
+    min-height: 100%;
+    font-size: 100%;
+}
+
+/* Imagen */
+img, picture, video, iframe, figure{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+        /* OPCIONALES: escala dentro de la imagen para no deformarla al setear alto y ancho desproporcional */
+    /* object-fit: cover; */
+    /* object-position: center center; */
+}
+
+/* Enlases a cajas */
+a{
+    display: block;
+}
+/* Enlases dentro de parrafos como inline */
+p a{
+    display: inline;
+}
+
+/* Anclaje suave */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilos por defecto de fuente desactivados */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em{
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Formularios */
+form, input, textarea, select, button, label{
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color: inherit;
+}
+
+/* SVG */
+svg{
+    /* width: 100%; */
+    display: block;
+        /* OPCIONAL svg toma el color heredado */
+    /* fill: currentColor */
+}
